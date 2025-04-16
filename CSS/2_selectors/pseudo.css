@@ -1,0 +1,61 @@
+
+.nav{
+    height: 80px;
+    background-color: black;
+}
+
+.nav > .logo{
+    color:red
+}
+
+.main{
+    height: 250px;
+    background-color: aqua;
+}
+
+.main > button{
+    background-color: blue;
+    color:white;
+}
+
+
+                        /* ! hover */
+
+.main > button:hover{
+    background-color: gold;
+    width: 100px;
+}
+
+                       /* !  active  */
+
+.main > button:active{
+    background-color: green;
+}
+
+.con1{
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.con1 > h2{
+    color:red;
+}
+
+
+                   /* !  nth-child */
+
+.con1 > ul > li:nth-child(4){
+    color:green;
+}
+
+
+
+.con1 > ul > li:nth-child(2n)
+{
+    background-color: white;
+}
+
+.con1 > ul > li:nth-child(2n+1)
+{
+    background-color: yellow;
+}

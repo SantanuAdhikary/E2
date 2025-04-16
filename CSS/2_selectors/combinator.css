@@ -1,0 +1,45 @@
+.nav{
+    height: 80px;
+    background-color: black;
+
+}
+
+
+/* !   Descendent Selector */
+
+.nav .logo{
+    color:orangered;
+}
+
+
+.main{
+    height: 250px;
+    background-color: antiquewhite;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.main p{
+    text-align: center;
+}
+
+.container1{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+}
+
+.container1 .box{
+    height: 100px;
+    width: 150px;
+    background-color: yellow;
+}
+
+
+/* !  direct child selector */
+
+.container1 > h2{
+    color:red
+}
