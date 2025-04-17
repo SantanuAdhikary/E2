@@ -24,6 +24,7 @@
 .main > button:hover{
     background-color: gold;
     width: 100px;
+    font-size: 20px;
 }
 
                        /* !  active  */
@@ -58,4 +59,79 @@
 .con1 > ul > li:nth-child(2n+1)
 {
     background-color: yellow;
+}
+
+
+
+
+/* !  pseudo Element Selector */
+
+
+
+/* !  1. first-letter */
+
+section > p::first-letter{
+    font-size: 34px;
+}
+
+
+/* !  2. first-line */
+
+section > #p2::first-line{
+    color:green;
+}
+
+/* ! 3. selection */
+
+section > #p3::selection{
+
+    background-color: black;
+    color:white;
+}
+
+/* !  4. before */
+
+
+section > h1::before{
+    content : "*";
+    color:red;
+  
+}
+
+
+/* ! 5. after */
+
+
+section > h1::after{
+    content : " !!";
+    color:green;
+}
+
+
+/* ! 6. marker */
+
+section > ul > li::marker{
+ 
+    color:blue;
+}
+
+
+section > ul > li:nth-child(2n+1)::marker{
+    color:red;
+}
+
+
+
+/* !  Attribute Selector */
+
+
+article > a[target = "_blank"]
+{
+    background-color: red;
+}
+
+
+article > a[href]
+{
+    color: green;
 }
