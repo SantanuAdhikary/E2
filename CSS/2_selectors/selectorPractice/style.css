@@ -1,0 +1,114 @@
+
+/* h1{
+    color:red;
+}
+
+p{
+    color:blue;
+}
+
+#p1{
+    background-color: green;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+
+
+*{
+    font-style: italic;
+    
+}
+
+
+.box , .footer{
+
+    text-align: center;
+} */
+
+
+
+.nav  #p1{
+    color:red;
+}
+
+
+.con{
+    height: 300px;
+    width: 350px;
+    background-color: red;
+}
+
+.con .card{
+    height: 150px;
+    width: 200px;
+    background-color: green;
+
+}
+
+.con > h2{
+    color:white;
+}
+
+.footer > #btn{
+    background-color: gray;
+}
+
+
+.footer > #btn:hover{
+    background-color: brown;
+    color:white;
+    width: 200px;
+}
+
+
+.footer > #btn2:active{
+  background-color: green;
+}
+
+.footer > button:nth-child(5)
+{
+    background-color: red;
+}
+
+
+
+
+.main > p::first-letter{
+    color:red;
+    font-size: 30px;
+}
+
+.main > p::first-line{
+    background-color: antiquewhite;
+    font-style: italic;
+}
+
+.footer > p::selection{
+  background-color: gray;
+}
+
+
+.footer > h1::before{
+    content:"hello";
+    color:red;
+    font-style: italic;
+}
+
+.footer > h1::after{
+    content: "....!!!!!";
+    color:green;
+}
+
+.footer > ul > li::marker{
+    color:brown
+}
+
+.footer > a[target="_blank"]{
+    background-color: red;
+}
