@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+.header{
+    height: 200px;
+    background-color: antiquewhite;
+}
+
+.header > p{
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.section > h2{
+    font-family: "Bungee Spice", sans-serif;
+}
+
+.section > ul > li{
+     font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+
+
+.header > button{
+    cursor: pointer;
+}
+
+.header > button:hover{
+    font-size: 20px;
+}
+
+.main{
+    background-color: aquamarine;
+    height: 370px;
+}
+
+
+.main > h1{
+
+    color : white;
+    text-align: center;
+    text-decoration: underline red ;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 3px 4px 3px black;
+}
+
+.main > p{
+    text-align: justify;
+    word-spacing: 5px;
+    text-indent: 30px;
+
+    text-shadow: 0px 4px 2px blue;
+    line-height: 30px;
+    text-transform: capitalize;
+}
