@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    height: 300px;
+    width: 400px;
+    background-color: orangered;
+}
+
+.header > .box{
+    height: 150px;
+    width: 200px;
+    background-color: yellow;
+}
+
+
+.section1{
+
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    margin-top: 30px;
+}
+
+
+.section1 > .box2{
+
+    height: 50%;
+    width: 50%;
+    background-color: red;
+
+    margin-top: 30px;
+}
+
+
+
+
+.container{
+
+    height: 100vh;
+    
+    
+    background-color: blueviolet;
+}
+
+.container > h1{
+    text-align: center;
+}
