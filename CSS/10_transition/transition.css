@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.outer > .inner{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transition: all 2s ease-out 2s; */
+
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+
+
+.outer > .inner:hover{
+    border-radius:50% ;
+    background-color: orangered;
+}
+
+
+.outer > .con1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 2s ease-in;
+    color:white;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .con2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 2s ease-in;
+    color:white;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .con3{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    transition: all 2s ease-in;
+    color:white;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .con4{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    transition: all 2s ease-in;
+   
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .con5{
+    height: 100px;
+    width: 100px;
+    background-color:pink ;
+    transition: all 2s ease-in;
+   
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.outer > .con1:hover{
+    /* transform: translateX(-100px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(-100px); */
+    /* transform: translateY(100px); */
+
+    transform: translate(100px,100px);
+}
+
+
+.outer > .con2:hover{
+    transform: rotate(360deg);
+}
+
+.outer > .con3:hover{
+    transform: scale(1.4);
+    box-shadow: 0px 4px 7px white;
+}
+.outer > .con4:hover{
+    transform: skew(45deg)
+   
+}
+
+
+.outer > .con5:hover{
+    transform: translate(-200px,-200px) rotate(180deg) scale(1.6);
+    border-radius: 50%;
+    background-color:brown;
+    color: white;
+}
