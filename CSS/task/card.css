@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.outer > .card{
+    width: 300px;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
+.outer > .card > h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+
+.outer > .card > p{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.outer > .card > button{
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.outer > #second{
+    background-color: palevioletred;
+    color:white;
+}

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo{
+    border: 2px solid black;
+}
+
+/* .listItems{
+    border: 2px solid green;
+  
+} */
+
+.listItems > ul{
+    display: flex;
+}
+
+.listItems > ul > li{
+    list-style: none;
+    font-size: 18px;
+    margin-right: 8px;
+    font-weight: bold;
+
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer > .inner{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
