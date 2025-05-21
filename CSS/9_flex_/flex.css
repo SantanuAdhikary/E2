@@ -34,3 +34,18 @@
     width: 80px;
     border: 3px solid red;
 }
+
+.container2{
+    height: 400px;
+    width: 500px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 > .box2{
+    height: 150px;
+    width: 250px;
+    background-color: yellow;
+}
