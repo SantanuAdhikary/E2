@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, red, yellow,green);
+   
+
+}
+
+.outer > .inner{
+    height: 400px;
+    width: 500px;
+
+    
+    background-color: white;
+      background-image: url("https://images.firstpost.com/uploads/2024/11/Virat-Kohli-century-India-Australia-Perth-AP-1200-2024-11-b4f424fa93452cbbfdf1beaa407becfd.jpg?im=FitAndFill=(596,336)");
+
+      /* background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1EdaVAtRcpMSIvrK2qmO_9xaS4Ex5t7xuKA&s"); */
+     background-repeat: no-repeat;
+     /* background-position: top right; */
+     /* background-position: center; */
+
+     background-position: center;
+
+     background-size: cover;
+
+     border-radius: 26px;
+     box-shadow: 0px 4px 6px black;
+
+     transition: all 1s ease-in;
+     cursor: pointer;
+     
+
+   
+}
+
+
+.outer > .inner:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 8px 6px black;
+}
